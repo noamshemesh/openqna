@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    db: "mongodb://localhost/openqna",
+    db: "mongodb://localhost/openqna-dev",
     app: {
         name: "OpenQ&A"
     },
