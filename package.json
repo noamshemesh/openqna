@@ -1,7 +1,7 @@
 {
   "name": "openqna",
   "description": "Open Q&A infrastructure.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "author": "Noam Shemesh",
   "repository": {
