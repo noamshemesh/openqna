@@ -3,9 +3,6 @@
 module.exports = {
     db: "mongodb://localhost/openqna-test",
     port: 3001,
-    app: {
-        name: "MEAN - A Modern Stack - Test"
-    },
     facebook: {
         clientID: "APP_ID",
         clientSecret: "APP_SECRET",

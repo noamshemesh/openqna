@@ -1,10 +1,6 @@
 'use strict';
 
 module.exports = {
-    db: "mongodb://localhost/openqna",
-    app: {
-        name: "MEAN - A Modern Stack - Production"
-    },
     facebook: {
         clientID: "APP_ID",
         clientSecret: "APP_SECRET",

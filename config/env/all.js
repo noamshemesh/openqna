@@ -6,8 +6,10 @@ var rootPath = path.normalize(__dirname + '/../..');
 module.exports = {
 	root: rootPath,
 	port: process.env.PORT || 3000,
-	db: process.env.MONGOHQ_URL,
-
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI,
+  app: {
+    name: "OpenQ&A"
+  },
 	// The secret should be set to a non-guessable string that
 	// is used to compute a session hash
 	sessionSecret: '7cED5AqchpUkfcc7AtVKJKVm',

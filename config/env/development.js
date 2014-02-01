@@ -2,9 +2,6 @@
 
 module.exports = {
     db: "mongodb://localhost/openqna-dev",
-    app: {
-        name: "OpenQ&A"
-    },
     facebook: {
         clientID: "APP_ID",
         clientSecret: "APP_SECRET",
